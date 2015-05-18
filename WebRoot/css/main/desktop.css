@@ -1,0 +1,154 @@
+A:link {
+	COLOR: #005893;
+	TEXT-DECORATION: none;
+}
+
+A:visited {
+	COLOR: #005893;
+	TEXT-DECORATION: none
+}
+
+A:active {
+	COLOR: #005893;
+	TEXT-DECORATION: none
+}
+
+A:hover {
+	COLOR: #0000ff;
+	TEXT-DECORATION: underLine;
+}
+
+.msgpriorColor3{color:#FF0000;}
+.msgpriorColor3:link{color:#FF0000;}
+.msgpriorColor3:visited{color:#FF0000;}
+.msgpriorColor3:link{color:#FF0000;}
+.msgpriorColor3:active{color:#FF0000;}
+.msgpriorColor3:hover{color:#FF0000;}
+.msgpriorColor2{color:#FF4500;}
+.msgpriorColor2:link{color:#FF4500;}
+.msgpriorColor2:visited{color:#FF4500;}
+.msgpriorColor2:hover{color:#FF4500;}
+.msgpriorColor2:active{color:#FF4500;}
+.msgpriorColor1{color:#FFD700;}
+.msgpriorColor1:link{color:#FFD700;}
+.msgpriorColor1:visited{color:#FFD700;}
+.msgpriorColor1:active{color:#FFD700;}
+.msgpriorColor1:hover{color:#FFD700;}
+
+body {
+	background-color: #ffffff;
+	overflow: auto;
+	font-size: 12px;
+}
+
+#DesktopBlock {
+	float: left;
+	width: 100%;
+}
+
+#Block {
+	margin-left: 3px;
+	margin-right: 3px;
+	border: 1px solid #4891c6;
+	background-color: #ffffff;
+	margin-top: 6px;
+}
+
+#BlockHead {
+	height: 21px;
+	background:url(../../images/main/htmlTitlebg.jpg) repeat-x left top !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#a1c6e2,endcolorstr=#e1e8f0,gradientType=0);
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-left: 1px;
+	padding-top: 2px;
+	padding-left: 5px;
+}
+
+#BlockHead td {
+	font-weight: bold;
+	font-size: 13px;
+	color: #005892;
+}
+
+#BlockHead img {
+	margin: 2px;
+	cursor: pointer;
+}
+
+.BlockMemo {
+	width:99.9%;
+	height: 137px;
+	padding-top: 30px;
+	margin-top: 1px;
+	padding-bottom:1px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+#divblock{
+	float:left;
+	width:49%;
+}
+.divBGDetail{
+	width:99.9%;
+	height: 157px;
+	padding-top: 10px;
+	margin-top: 1px;
+	padding-bottom:1px;
+	text-align: left;
+}
+ul {
+	margin: 0px;
+	list-style-type: none;
+	padding:0px;
+}
+.DetailLine {
+	width: 99%;
+	height: 19px;
+	line-height: 18px;
+	color: #005893;
+	padding-left: 4px;
+	list-style-type: none;
+	border-bottom: solid 1px #c4d3e1;
+}
+
+.EndDetailLine {
+	width: 99%;
+	height: 19px;
+	line-height: 18px;
+	color: #005893;
+	padding-left: 4px;
+	list-style-type: none;
+}
+
+.DetailLineInfo {
+	float: left;
+	color: #005893;
+	text-align:left;
+}
+#BlockFoot {
+	height: 16px;
+	padding-right: 11px;
+	padding-top: 2px;
+	background:url(../../images/main/htmlbg.jpg) repeat-x left bottom !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#eaeaea,endcolorstr=#ffffff,gradientType=0);
+}
+
+#BlockFootMore {
+	float: right;
+	font-size: 12px;
+}
+
+#BlockFootMore A {
+	color: #005791;
+	text-decoration:none;
+}
+.DetailLineTime {
+	float: right;
+	width: 125px;
+	height: 14px;
+	text-align: right;
+	font-size: 12px;
+	color: #005893;
+}

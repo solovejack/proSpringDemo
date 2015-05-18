@@ -1,0 +1,88 @@
+.table{
+	border-right:none;
+	border-top:1px solid #cccccc;
+	border-left:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:5px;
+	margin-right:5px;
+	padding:0;
+	font-size: 12px;
+	color: #444;
+	text-align: left;
+	vertical-align: middle;
+	width:99%;
+}
+.tabSingleHeader{
+	background: url("../../images/global/tabhead_bg.png");
+	background-repeat:repeat-x;
+	margin: 0px;
+	padding: 0px;
+	height: 28px;
+	text-align: center;
+	font-size: 12px;
+}
+.tabDoubleHeader{
+	background: url("../../images/global/tabhead_bg.png");
+	background-repeat:repeat-x;
+	margin: 0px;
+	padding: 0px;
+	height: 14px;
+	text-align: center;
+	font-size: 12px;
+}
+.tabFootBg{
+	background: url("../../images/global/tablefootbg.jpg");
+	background-repeat:repeat-x;
+	height: 28px;
+	text-align: right;
+	font-size: 12px;
+}
+
+.tabTwoRowHeader{
+	background: url("../../images/global/tabhead_bg.png");
+	background-repeat:repeat-x;
+	margin: 0px;
+	padding: 0px;
+	height: 42px;
+	text-align: center;
+	font-size: 12px;
+}
+.tabTwoRowUp{
+	background: url("../../images/global/tabhead_bg1.png");
+	background-repeat:repeat-x;
+	margin: 0px;
+	padding: 0px;
+	height: 21px;
+	text-align: center;
+	font-size: 12px;
+}
+.tabTwoRowDown{
+	background: url("../../images/global/tabhead_bg2.png");
+	background-repeat:repeat-x;
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+.table td{
+	margin: 0px;
+	padding: 0px;
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: none;
+}
+.tr1{
+	height: 25px;
+	background-color: #FDFEFE;
+}
+.tr2{
+	height: 25px;
+	background-color: #eff5f5;
+}
+.hover,.click{
+	background-color: #fffcdf;
+}
